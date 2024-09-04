@@ -1,0 +1,73 @@
+[
+        {
+            "id": 1,
+            "nome": "Nome completo:",
+            "tipo": "Texto",
+            "validacao": "",
+            "disabled": false
+        },
+        {
+            "id": 2,
+            "nome": "CPF:",
+            "tipo": "Texto",
+            "validacao": "",
+            "disabled": false
+        },
+        {
+            "id": 3,
+            "nome": "RG:",
+            "tipo": "Texto",
+            "validacao": "",
+            "disabled": false
+        },
+        {
+            "id": 4,
+            "nome": "Nome da mãe:",
+            "tipo": "Texto",
+            "validacao": "",
+            "disabled": false
+        },
+        {
+            "id": 5,
+            "nome": "Carteira de trabalho:",
+            "tipo": "Texto",
+            "validacao": "",
+            "disabled": false
+        },
+        {
+            "id": 6,
+            "nome": "CEP:",
+            "tipo": "Texto",
+            "validacao": "CEP",
+            "disabled": false
+        },
+        {
+            "id": 10,
+            "nome": "Endereco:",
+            "tipo": "Texto",
+            "validacao": "",
+            "disabled": true
+        },
+        {
+            "id": 7,
+            "nome": "Número",
+            "tipo": "Texto",
+            "validacao": "",
+            "disabled": false
+        },
+        {
+            "id": 8,
+            "nome": "Complemento:",
+            "tipo": "Texto",
+            "validacao": "",
+            "disabled": false
+        },
+        {
+            "id": 9,
+            "nome": "Sexo:",
+            "tipo": "Escolha",
+            "opcoes": ["Masculino", "Feminino", "Não binário", "Outro"],
+            "validacao": "",
+            "disabled": false
+        }
+]

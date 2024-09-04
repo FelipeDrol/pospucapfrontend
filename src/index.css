@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+header{
+  display: block;
+  margin: 8px auto 0 auto;
+  width: 100%;
+}
+.indicador{
+  display: block;
+  margin: 0 auto 8px auto;
+  width: 281px;
+}
+.indicador div{
+  display: flex;
+}
+.indicador span{
+  font-size: 13px;
+  text-align: center;
+  line-height: 36px;
+  font-weight: 500;
+}
+.indicador .line{
+  height: 0px;
+  width: 80px;
+  border: 1px solid black;
+  margin: 18px 0;
+}
+.indicador .ativo{
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #3D85BD;
+}
+.indicador .inativo{
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+.TextoCabeca{
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+}
+.banner{
+  display: block;
+  width: 161px;
+  margin: 15px auto 63px auto;
+}
+.banner img{
+  display: block;
+  width: 100%;
+}
+.textobase{
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+}
+.textobase p{
+  font-size: 18px;
+  text-align: center;
+  margin: 18px 0 27px 0;
+}
+#login{
+  display: block;
+  height: 37px;
+  width: 395px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin: 0 auto;
+  font-size: 20px;
+  text-indent: 14px;
+  font-weight: 500;
+}
+#login::placeholder{
+  font-size: 20px;
+  text-indent: 14px;
+  font-weight: 500;
+  color: black;
+}
+.botao{
+  background: rgb(15, 134, 34);
+  border: none;
+  border-radius: 8px;
+  width: 400px;
+  height: 40px;
+  display: block;
+  margin: 32px auto;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+.textoAlerta{
+  display: block;
+  width: 700px;
+  margin: 54px auto;
+}
+.textoAlerta p{
+  color: #3D85BD;
+  font-size: 18px;
+  text-align: center;
+}
+.documentos{
+  display: block;
+  width: 935px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+.documento label{
+  font-size: 11px;
+  display: block;
+  padding-bottom: 6px;
+}
+.documento input[type=text]{
+  font-size: 11px;
+  display: block;
+  height: 28px;
+  width: 928px;
+  border-radius: 8px;
+  border: 1px solid black;
+  text-indent: 8px;
+  margin-bottom: 5px;
+}
+.documento select{
+  font-size: 11px;
+  display: block;
+  height: 32px;
+  width: 934px;
+  border-radius: 8px;
+  border: 1px solid black;
+  text-indent: 8px;
+  margin-bottom: 5px;
+}
+.documento select option{
+  font-size: 11px;
+}
+.anexos{
+  display: block;
+  width: 935px;
+  margin: 0 auto;
+  padding-bottom: 106px;
+}
+.anexo label{
+  font-size: 11px;
+  display: block;
+  padding-bottom: 6px;
+}
+.anexo .btn{
+  display: block;
+  cursor: pointer;
+  border: 1px dashed black;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  width: 934px;
+}
+.anexo .btnhide{
+  display: none;
+}
+.anexo img{
+  display: block;
+  margin: 0 auto;
+  padding-top: 3px;
+  padding-bottom: 11px;
+}
+.anexo .inputAnexo{
+  display: none;
+}
+.anexo p{
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  display: block;
+  margin-bottom: 13px;
+}
+.anexo p .spanAzul{
+  color: #3D85BD;
+}
+.oculto{
+  visibility: hidden;
+}

@@ -1,0 +1,24 @@
+[
+        {
+            "id": 1,
+            "nome": "Documento",
+            "tipo": "Escolha",
+            "opcoes": ["RG", "CNH", "RNE"],
+            "validacao": "",
+            "disabled": false
+        },
+        {
+            "id": 2,
+            "nome": "Foto",
+            "tipo": "Texto",
+            "validacao": "",
+            "disabled": false
+        },
+        {
+            "id": 3,
+            "nome": "Comprovante de residencia",
+            "tipo": "Texto",
+            "validacao": "",
+            "disabled": false
+        }
+]
