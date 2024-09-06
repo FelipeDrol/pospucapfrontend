@@ -117,13 +117,13 @@ export default function Dados() {
 
 const mudaCEP = (obj) => {
   let numberCEP = obj.target.value.replace(/\D/g,'');
-  if(numberCEP.length == 8)
+  if(numberCEP.length === 8)
   {
     axios.get('https://viacep.com.br/ws/' + numberCEP + '/json/').then((response) => {
       let novoEstado = estado.map(e => {
         if(e.nome === obj.target.name)
         {
-          e.valor = obj.target.value;
+          e.valor = numberCEP;
           return e;
         }
         else if(e.nome === "Endereco:")
