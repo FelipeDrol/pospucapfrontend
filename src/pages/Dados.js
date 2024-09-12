@@ -48,7 +48,7 @@ export default function Dados() {
         {
           formData.append("id", sqlID);
 
-          axios.post("http://localhost:5000/dado", formData, {
+          axios.put("http://localhost:5000/dado", formData, {
             headers: {
               "Content-Type": "multipart/form-data"
             },
@@ -62,7 +62,7 @@ export default function Dados() {
         }
         else
         {
-          axios.put("http://localhost:5000/dado", formData, {
+          axios.post("http://localhost:5000/dado", formData, {
             headers: {
               "Content-Type": "multipart/form-data"
             },

@@ -48,7 +48,7 @@ export default function Anexos() {
           formData.append("valorEscolha", valorEscolha);
           formData.append("id", d.sqlID);
           
-          axios.post("http://localhost:5001/documento", formData, {
+          axios.put("http://localhost:5001/documento", formData, {
             headers: {
               "Content-Type": "multipart/form-data"
             },
@@ -76,7 +76,7 @@ export default function Anexos() {
           formData.append("campo", d.nome);
           formData.append("valorEscolha", valorEscolha);
 
-          axios.put("http://localhost:5001/documento", formData, {
+          axios.post("http://localhost:5001/documento", formData, {
             headers: {
               "Content-Type": "multipart/form-data"
             },
