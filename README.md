@@ -2,7 +2,7 @@
 
 MVP para Disciplina **Desenvolvimento Back-end Avançado** 
 
-![image](https://github.com/user-attachments/assets/dd0d9c3d-becd-41f1-9a1d-dbc9e8c858de)
+![364550335-dd0d9c3d-becd-41f1-9a1d-dbc9e8c858de](https://github.com/user-attachments/assets/8c6e6753-5124-4bbe-aa9e-6b39e33c9c12)
 
 O objetivo aqui é ilustrar um exemplo de frontend de um painel de usuário de envio de documentos. Tanto os dados quanto seus anexos.
 O sistema irá aceitar qualquer e-mail válido para se logar.
